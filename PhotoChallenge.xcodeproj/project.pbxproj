@@ -11,6 +11,7 @@
 		3A01511128324D1F00A745CE /* FlickrChallenge in Resources */ = {isa = PBXBuildFile; fileRef = 3A01511028324D1F00A745CE /* FlickrChallenge */; };
 		3A39F426283290A8009A402D /* FlickrChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = 3A39F425283290A8009A402D /* FlickrChallenge */; };
 		3A39F428283290CB009A402D /* URLSession+HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F427283290CB009A402D /* URLSession+HTTPClient.swift */; };
+		3A39F42A2832966B009A402D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A39F4292832966B009A402D /* README.md */; };
 		3AA670F1282D4296003ECD1C /* PhotoChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA670F0282D4296003ECD1C /* PhotoChallengeApp.swift */; };
 		3AA670F3282D4296003ECD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA670F2282D4296003ECD1C /* ContentView.swift */; };
 		3AA670F5282D4297003ECD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA670F4282D4297003ECD1C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		3A01510E28324D1700A745CE /* CoreChallenge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreChallenge; sourceTree = SOURCE_ROOT; };
 		3A01511028324D1F00A745CE /* FlickrChallenge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlickrChallenge; sourceTree = SOURCE_ROOT; };
 		3A39F427283290CB009A402D /* URLSession+HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPClient.swift"; sourceTree = "<group>"; };
+		3A39F4292832966B009A402D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3AA670ED282D4296003ECD1C /* PhotoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA670F0282D4296003ECD1C /* PhotoChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoChallengeApp.swift; sourceTree = "<group>"; };
 		3AA670F2282D4296003ECD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		3AA670E4282D4296003ECD1C = {
 			isa = PBXGroup;
 			children = (
+				3A39F4292832966B009A402D /* README.md */,
 				3AA670EF282D4296003ECD1C /* PhotoChallenge */,
 				3AA67100282D4297003ECD1C /* PhotoChallengeTests */,
 				3AA670EE282D4296003ECD1C /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				3AA670F8282D4297003ECD1C /* Preview Assets.xcassets in Resources */,
 				3A01511128324D1F00A745CE /* FlickrChallenge in Resources */,
+				3A39F42A2832966B009A402D /* README.md in Resources */,
 				3AA670F5282D4297003ECD1C /* Assets.xcassets in Resources */,
 				3A01510F28324D1700A745CE /* CoreChallenge in Resources */,
 			);
