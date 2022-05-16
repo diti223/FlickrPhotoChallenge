@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A01510F28324D1700A745CE /* CoreChallenge in Resources */ = {isa = PBXBuildFile; fileRef = 3A01510E28324D1700A745CE /* CoreChallenge */; };
+		3A01511128324D1F00A745CE /* FlickrChallenge in Resources */ = {isa = PBXBuildFile; fileRef = 3A01511028324D1F00A745CE /* FlickrChallenge */; };
+		3A39F426283290A8009A402D /* FlickrChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = 3A39F425283290A8009A402D /* FlickrChallenge */; };
+		3A39F428283290CB009A402D /* URLSession+HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F427283290CB009A402D /* URLSession+HTTPClient.swift */; };
+		3AA670F1282D4296003ECD1C /* PhotoChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA670F0282D4296003ECD1C /* PhotoChallengeApp.swift */; };
+		3AA670F3282D4296003ECD1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA670F2282D4296003ECD1C /* ContentView.swift */; };
+		3AA670F5282D4297003ECD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA670F4282D4297003ECD1C /* Assets.xcassets */; };
+		3AA670F8282D4297003ECD1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA670F7282D4297003ECD1C /* Preview Assets.xcassets */; };
+		3AA67102282D4297003ECD1C /* PhotoChallengeIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA67101282D4297003ECD1C /* PhotoChallengeIntegrationTests.swift */; };
+		3AA67120282D435F003ECD1C /* CoreChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA6711F282D435F003ECD1C /* CoreChallenge */; };
+		3ABE94862830E4FB00B3E44F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE94852830E4FB00B3E44F /* SearchBar.swift */; };
+		3AE8820B28326F29007D16CC /* PresentationChallenge in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE8820A28326F29007D16CC /* PresentationChallenge */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AA670FE282D4297003ECD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA670E5282D4296003ECD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AA670EC282D4296003ECD1C;
+			remoteInfo = PhotoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A01510E28324D1700A745CE /* CoreChallenge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreChallenge; sourceTree = SOURCE_ROOT; };
+		3A01511028324D1F00A745CE /* FlickrChallenge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlickrChallenge; sourceTree = SOURCE_ROOT; };
+		3A39F427283290CB009A402D /* URLSession+HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPClient.swift"; sourceTree = "<group>"; };
+		3AA670ED282D4296003ECD1C /* PhotoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA670F0282D4296003ECD1C /* PhotoChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoChallengeApp.swift; sourceTree = "<group>"; };
+		3AA670F2282D4296003ECD1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AA670F4282D4297003ECD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA670F7282D4297003ECD1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AA670FD282D4297003ECD1C /* PhotoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA67101282D4297003ECD1C /* PhotoChallengeIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoChallengeIntegrationTests.swift; sourceTree = "<group>"; };
+		3ABE94852830E4FB00B3E44F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		3AE8820928325206007D16CC /* PresentationChallenge */ = {isa = PBXFileReference; lastKnownFileType = text; path = PresentationChallenge; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA670EA282D4296003ECD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE8820B28326F29007D16CC /* PresentationChallenge in Frameworks */,
+				3AA67120282D435F003ECD1C /* CoreChallenge in Frameworks */,
+				3A39F426283290A8009A402D /* FlickrChallenge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA670FA282D4297003ECD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA670E4282D4296003ECD1C = {
+			isa = PBXGroup;
+			children = (
+				3AA670EF282D4296003ECD1C /* PhotoChallenge */,
+				3AA67100282D4297003ECD1C /* PhotoChallengeTests */,
+				3AA670EE282D4296003ECD1C /* Products */,
+				3AA6711E282D435F003ECD1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA670EE282D4296003ECD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA670ED282D4296003ECD1C /* PhotoChallenge.app */,
+				3AA670FD282D4297003ECD1C /* PhotoChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA670EF282D4296003ECD1C /* PhotoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				3A01510E28324D1700A745CE /* CoreChallenge */,
+				3AE8820928325206007D16CC /* PresentationChallenge */,
+				3A01511028324D1F00A745CE /* FlickrChallenge */,
+				3AA670F0282D4296003ECD1C /* PhotoChallengeApp.swift */,
+				3A39F427283290CB009A402D /* URLSession+HTTPClient.swift */,
+				3AA670F2282D4296003ECD1C /* ContentView.swift */,
+				3ABE94852830E4FB00B3E44F /* SearchBar.swift */,
+				3AA670F4282D4297003ECD1C /* Assets.xcassets */,
+				3AA670F6282D4297003ECD1C /* Preview Content */,
+			);
+			path = PhotoChallenge;
+			sourceTree = "<group>";
+		};
+		3AA670F6282D4297003ECD1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AA670F7282D4297003ECD1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AA67100282D4297003ECD1C /* PhotoChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AA67101282D4297003ECD1C /* PhotoChallengeIntegrationTests.swift */,
+			);
+			path = PhotoChallengeTests;
+			sourceTree = "<group>";
+		};
+		3AA6711E282D435F003ECD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA670EC282D4296003ECD1C /* PhotoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA67111282D4297003ECD1C /* Build configuration list for PBXNativeTarget "PhotoChallenge" */;
+			buildPhases = (
+				3AA670E9282D4296003ECD1C /* Sources */,
+				3AA670EA282D4296003ECD1C /* Frameworks */,
+				3AA670EB282D4296003ECD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA67122282D43E8003ECD1C /* PBXTargetDependency */,
+			);
+			name = PhotoChallenge;
+			packageProductDependencies = (
+				3AA6711F282D435F003ECD1C /* CoreChallenge */,
+				3AE8820A28326F29007D16CC /* PresentationChallenge */,
+				3A39F425283290A8009A402D /* FlickrChallenge */,
+			);
+			productName = PhotoChallenge;
+			productReference = 3AA670ED282D4296003ECD1C /* PhotoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AA670FC282D4297003ECD1C /* PhotoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA67114282D4297003ECD1C /* Build configuration list for PBXNativeTarget "PhotoChallengeTests" */;
+			buildPhases = (
+				3AA670F9282D4297003ECD1C /* Sources */,
+				3AA670FA282D4297003ECD1C /* Frameworks */,
+				3AA670FB282D4297003ECD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AA670FF282D4297003ECD1C /* PBXTargetDependency */,
+			);
+			name = PhotoChallengeTests;
+			productName = PhotoChallengeTests;
+			productReference = 3AA670FD282D4297003ECD1C /* PhotoChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA670E5282D4296003ECD1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3AA670EC282D4296003ECD1C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3AA670FC282D4297003ECD1C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3AA670EC282D4296003ECD1C;
+					};
+				};
+			};
+			buildConfigurationList = 3AA670E8282D4296003ECD1C /* Build configuration list for PBXProject "PhotoChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA670E4282D4296003ECD1C;
+			productRefGroup = 3AA670EE282D4296003ECD1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA670EC282D4296003ECD1C /* PhotoChallenge */,
+				3AA670FC282D4297003ECD1C /* PhotoChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA670EB282D4296003ECD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA670F8282D4297003ECD1C /* Preview Assets.xcassets in Resources */,
+				3A01511128324D1F00A745CE /* FlickrChallenge in Resources */,
+				3AA670F5282D4297003ECD1C /* Assets.xcassets in Resources */,
+				3A01510F28324D1700A745CE /* CoreChallenge in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA670FB282D4297003ECD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA670E9282D4296003ECD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA670F3282D4296003ECD1C /* ContentView.swift in Sources */,
+				3ABE94862830E4FB00B3E44F /* SearchBar.swift in Sources */,
+				3AA670F1282D4296003ECD1C /* PhotoChallengeApp.swift in Sources */,
+				3A39F428283290CB009A402D /* URLSession+HTTPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA670F9282D4297003ECD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA67102282D4297003ECD1C /* PhotoChallengeIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AA670FF282D4297003ECD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AA670EC282D4296003ECD1C /* PhotoChallenge */;
+			targetProxy = 3AA670FE282D4297003ECD1C /* PBXContainerItemProxy */;
+		};
+		3AA67122282D43E8003ECD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3AA67121282D43E8003ECD1C /* CoreChallenge */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AA6710F282D4297003ECD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AA67110282D4297003ECD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA67112282D4297003ECD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = GK6RNX579Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilescu.PhotoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AA67113282D4297003ECD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = GK6RNX579Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilescu.PhotoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AA67115282D4297003ECD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GK6RNX579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilescu.PhotoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoChallenge.app/PhotoChallenge";
+			};
+			name = Debug;
+		};
+		3AA67116282D4297003ECD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GK6RNX579Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilescu.PhotoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoChallenge.app/PhotoChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA670E8282D4296003ECD1C /* Build configuration list for PBXProject "PhotoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6710F282D4297003ECD1C /* Debug */,
+				3AA67110282D4297003ECD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA67111282D4297003ECD1C /* Build configuration list for PBXNativeTarget "PhotoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA67112282D4297003ECD1C /* Debug */,
+				3AA67113282D4297003ECD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA67114282D4297003ECD1C /* Build configuration list for PBXNativeTarget "PhotoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA67115282D4297003ECD1C /* Debug */,
+				3AA67116282D4297003ECD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A39F425283290A8009A402D /* FlickrChallenge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlickrChallenge;
+		};
+		3AA6711F282D435F003ECD1C /* CoreChallenge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreChallenge;
+		};
+		3AA67121282D43E8003ECD1C /* CoreChallenge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreChallenge;
+		};
+		3AE8820A28326F29007D16CC /* PresentationChallenge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PresentationChallenge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3AA670E5282D4296003ECD1C /* Project object */;
+}
